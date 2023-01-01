@@ -1,0 +1,26 @@
+#include<iostream>
+#include<windows.h>
+using namespace std;
+void result(string);
+main()
+
+{
+ string false;
+ cout<<"enter condition:";
+ cin>>false;
+ 
+
+ result(false);
+
+}
+void result(string x)
+{
+ if (x=="false")
+ {
+  cout<<"true"<<endl;
+ }
+ if(x==true)
+ {
+ cout<<"False"<<endl;
+ }
+}

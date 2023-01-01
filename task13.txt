@@ -1,0 +1,35 @@
+#include<iostream>
+#include<windows.h>
+using namespace std;
+void time(int,int,int,int);
+v int holidays;
+main()
+{
+ cout<<"Enter your holidays:";
+ cin>>holidays;
+ void time( play_time, working_days,norm,time_left)
+
+
+
+
+
+
+}
+void time(int play,int working,int time,norm)
+ {
+ int working_days,play_time;
+ int norm=30,000;
+ working_days=365-holidays;
+ play_time=working_days*63 + holidays*87;
+ time_left=norm - play_time;
+ cout<<"cat has time:"<<time_left;
+ }
+  
+
+
+
+
+
+
+
+}
